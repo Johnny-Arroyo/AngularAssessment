@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Black Lotus",
+    "price": 150000,
+    "description": "A legendary card that grants three mana of any single color."
+  },
+  {
+    "id": 2,
+    "name": "Time Walk",
+    "price": 7000,
+    "description": "Take an extra turn after this one. One of the most powerful cards in the game."
+  },
+  {
+    "id": 3,
+    "name": "Mox Sapphire",
+    "price": 5000,
+    "description": "A zero-cost artifact that adds blue mana to your mana pool. Part of the Power Nine."
+  },
+  {
+    "id": 4,
+    "name": "Tarmogoyf",
+    "price": 20,
+    "description": "A creature whose power and toughness depend on the number of card types in all graveyards."
+  },
+  {
+    "id": 5,
+    "name": "Liliana of the Veil",
+    "price": 25,
+    "description": "A powerful Planeswalker known for hand disruption and creature removal."
+  },
+  {
+    "id": 6,
+    "name": "Lightning Bolt",
+    "price": 2,
+    "description": "Deal 3 damage to any target."
+  },
+  {
+    "id": 7,
+    "name": "Sol Ring",
+    "price": 5,
+    "description": "A staple mana-producing artifact in Commander format."
+  },
+  {
+    "id": 8,
+    "name": "Jace, the Mind Sculptor",
+    "price": 30,
+    "description": "A versatile blue Planeswalker with powerful card manipulation abilities."
+  },
+  {
+    "id": 9,
+    "name": "Ulamog, the Ceaseless Hunger",
+    "price": 40,
+    "description": "A giant Eldrazi that exiles two permanents when cast and mills opponents when attacking."
+  },
+  {
+    "id": 10,
+    "name": "Force of Will",
+    "price": 100,
+    "description": "A blue instant that allows countering a spell for free at the cost of an exiled blue card and losing 1 life."
+  }
+]
