@@ -1,59 +1,43 @@
-# ProductApp
+**ProductApp (Magic: The Gathering Store)**
+This project is a Magic: The Gathering store built with Angular. It uses standalone components and modern Angular features to display a list of Magic cards and their details.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
+**Prerequisites**
+Node.js: Install a supported version (recommended: Node 20.x).
+npm: Ensure you have npm (version 11.0.0 or later).
+Angular CLI: Installed globally (version 19.1.7 or later).
 
-## Development server
 
-To start a local development server, run:
+**Installation**
+1. Clone the Repository: in the command line run:
 
-```bash
-ng serve
-```
+`git clone https://github.com/Johnny-Arroyo/AngularAssessment.git`
+`cd product-app`
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+2. Install Dependencies
 
-## Code scaffolding
+`npm install`
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+To start a local development server, in the command line run:
 
-```bash
-ng generate --help
-```
+`ng serve`
 
-## Building
+Once the server is running, open your browser and navigate to http://localhost:4200. The application will automatically reload if you modify any source files.
 
-To build the project run:
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+**Application Overview**
+Products Page:
+/products displays a list of Magic: The Gathering cards.
+Each product is displayed using a reusable ProductCardComponent.
 
-## Running unit tests
+Product Detail Page:
+Click on a product's 'view details' button to view its detailed information at /products/:id.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-```bash
-ng test
-```
+**Assets**
+The mock product data is stored in:
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+src/assets/mock-data/products.json
+Ensure that your angular.json is configured to copy assets from src/assets (if not, update the assets configuration accordingly).

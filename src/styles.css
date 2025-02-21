@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: auto;
+  padding: .5rem;
+  border-radius: 1rem;
+  background-color: darkgreen;
+  color: aliceblue;
+  font-weight: 600;
+}

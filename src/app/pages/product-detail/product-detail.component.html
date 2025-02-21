@@ -1,13 +1,9 @@
-<div *ngIf="product$ | async as product; else notFound">
+<div class="product-detail" *ngIf="product$ | async as product; else loading">
   <h2>{{ product.name }}</h2>
-  <p>{{ product.description }}</p>
-  <p>Price: ${{ product.price }}</p>
-
-  <a routerLink="/products">
-    <button>Back to Products</button>
-  </a>
+  <p class="description">{{ product.description }}</p>
+  <p class="price">Price: ${{ product.price }}</p>
+  <button (click)="onBackClick()">Back to Products</button>
 </div>
-
-<ng-template #notFound>
-  <p>Product not found. <a routerLink="/products">Go back to products</a></p>
+<ng-template #loading>
+  <p>Loading product details...</p>
 </ng-template>

@@ -1,0 +1,25 @@
+.product-card {
+  display: flex;
+  flex: row wrap;
+  flex-direction: column;
+  column-count: 2;
+  max-width: 300px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(187, 223, 238);
+  border-radius: .5rem;
+  border: 2px solid rgb(0, 0, 0, 0.2);
+  text-align: center;
+  width: 380px;
+  height: 150px;
+}
+
+.product-card h3 {
+  padding: .5rem 0 1rem 0;
+}
+
+.price {
+  margin: .5rem 0;
+  font-weight: bold;
+  align-self: center;
+}

@@ -1,0 +1,13 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: break-word;
+  margin: 2rem;
+}

@@ -1,0 +1,33 @@
+.product-detail {
+  display: flex;
+  flex: row wrap;
+  flex-direction: column;
+  column-count: 2;
+  max-width: 1000px;
+  height: fit-content;
+  padding: 1rem;
+  margin: 1rem 1rem;
+  background-color: rgb(187, 223, 238);
+  border-radius: .5rem;
+  border: 2px solid rgb(0, 0, 0, 0.2);
+  text-align: center;
+  justify-self: center;
+}
+
+.product-detail h2 {
+  padding: .5rem 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.price {
+  margin-top: auto;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.description {
+  padding: 2rem;
+  font-size: 1.5rem;
+
+}

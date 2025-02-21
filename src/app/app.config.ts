@@ -5,7 +5,7 @@ import { provideHttpClient } from '@angular/common/http';
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideRouter(routes), // ✅ Provides app-wide routing
-    provideHttpClient() // ✅ Enables HTTP services
+    provideRouter(routes),
+    provideHttpClient()
   ]
 };
